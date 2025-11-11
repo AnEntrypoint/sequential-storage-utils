@@ -1,0 +1,27 @@
+{
+  "name": "tasker-storage-utils",
+  "version": "1.0.0",
+  "description": "Shared storage utilities for task adapters: serialization, validation, and CRUD patterns",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./constants": "./src/constants.js",
+    "./serializer": "./src/serializer.js",
+    "./validators": "./src/validators.js",
+    "./crud-patterns": "./src/crud-patterns.js"
+  },
+  "scripts": {
+    "test": "node tests/test-base.js"
+  },
+  "keywords": [
+    "tasker",
+    "storage",
+    "serialization",
+    "validation",
+    "crud",
+    "adapter"
+  ],
+  "author": "",
+  "license": "MIT"
+}
