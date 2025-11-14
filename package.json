@@ -1,5 +1,5 @@
 {
-  "name": "tasker-storage-utils",
+  "name": "sequential-storage-utils",
   "version": "1.0.0",
   "description": "Shared storage utilities for task adapters: serialization, validation, and CRUD patterns",
   "type": "module",
@@ -15,7 +15,7 @@
     "test": "node tests/test-base.js"
   },
   "keywords": [
-    "tasker",
+    "sequential",
     "storage",
     "serialization",
     "validation",
