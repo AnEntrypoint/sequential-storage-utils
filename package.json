@@ -1,6 +1,6 @@
 {
   "name": "sequential-storage-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared storage utilities for task adapters: serialization, validation, and CRUD patterns",
   "type": "module",
   "main": "src/index.js",
@@ -11,9 +11,9 @@
     "./validators": "./src/validators.js",
     "./crud-patterns": "./src/crud-patterns.js"
   },
-  "scripts": {
-    "test": "node tests/test-base.js"
-  },
+  "files": [
+    "src"
+  ],
   "keywords": [
     "sequential",
     "storage",
@@ -22,6 +22,13 @@
     "crud",
     "adapter"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "lanmower",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-storage-utils.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

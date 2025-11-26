@@ -1,7 +1,7 @@
 import { RECORD_DEFAULTS } from './constants.js';
 import { Serializer } from './serializer.js';
 import { Validators } from './validators.js';
-import { nowISO } from 'tasker-utils/timestamps';
+import { nowISO } from 'sequential-utils/timestamps';
 
 export class CRUDPatterns {
   constructor() {

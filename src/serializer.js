@@ -1,5 +1,5 @@
 import { SERIALIZABLE_FIELDS, NULL_SAFE_FIELDS } from './constants.js';
-import { nowISO } from 'tasker-utils/timestamps';
+import { nowISO } from 'sequential-utils/timestamps';
 
 export class Serializer {
   serializeObject(obj) {
